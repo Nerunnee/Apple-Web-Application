@@ -50,6 +50,26 @@
   gap: 7px;
 }
 
+.gap1 {
+  gap: 16px;
+}
+
+.gap2 {
+  gap: 12px;
+}
+
+.gap3 {
+  gap: 4px;
+}
+
+.gap4 {
+  gap: 8px;
+}
+
+.gap5 {
+  gap: 20px;
+}
+
 .header-text {
   padding: 18px 31px;
 }
@@ -93,10 +113,11 @@
 .card {
   width: 100%;
   height: 500px;
+  margin: 12px 0 0;
 }
 
 .bg-image-1 {
-  background-image: url(./Image/Figure.png);
+  background-image: url(./Image/gold\ IP.png);
   background-size: cover;
   background-position: center;
 }
@@ -110,4 +131,192 @@
   font-size: 30px;
   font-weight: 700;
   color: #f5f5f7;
+}
+
+.text2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #f5f5f7;
+}
+
+.c-text-box1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 999px;
+}
+
+.c-text3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.c-text-box2 {
+  width: 66px;
+  height: 36px;
+  border: 1px solid #2997ff;
+  border-radius: 999px;
+}
+
+.c-text4 {
+  width: 26px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2997ff;
+}
+
+.text-margin1 {
+  margin: 350px 74px 36px 75px;
+}
+
+.bg-image-2 {
+  background-image: url(./Image/blue\ IP.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin2 {
+  margin: 36px 74px 350px 75px;
+}
+
+.c2-text-box1 {
+  width: 107px;
+  height: 36px;
+  background-color: #ffffff;
+  border-radius: 999px;
+}
+
+.c2-text3 {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.c2-text-box2 {
+  width: 66px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 999px;
+}
+
+.c2-text4 {
+  width: 26px;
+  height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.c3-card-text {
+  width: 100%;
+  height: 81.86px;
+}
+
+.c3-text2-box {
+  width: 100%;
+  height: 32px;
+}
+
+.c3-text2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
+.c3-img {
+  width: 180px;
+  height: 41.86px;
+  background-image: url(./Image/image\ 1.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-image-3 {
+  background-image: url(./Image/ipad.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin3 {
+  margin: 36px 0 330.14px;
+}
+
+.card-margin {
+  margin-bottom: 20px;
+}
+
+.c4-text-box1 {
+  width: 241px;
+  height: 91px;
+}
+
+.bg-image-4 {
+  background-image: url(./Image/Airpods.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin4 {
+  margin: 299px 74px 54px 75px;
+}
+
+.c5-apple-icon {
+  width: 22px;
+  height: 27px;
+  background-position: center;
+  background-size: cover;
+}
+
+.c5-text1 {
+  width: 121px;
+  height: 34px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.c5-text1 {
+  width: 121px;
+  height: 34px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.c5-textp {
+  font-size: 13px;
+  font-weight: 700;
+  color: #000000;
+  font: bold;
+}
+
+.bg-image-5 {
+  background-image: url(./Image/watch.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin5 {
+  margin: 46px 78px 319px 77px;
+}
+
+.c6-text1 {
+  font-size: 30px;
+  font-weight: 700;
+  font: bold;
+}
+
+.bg-image-6 {
+  background-image: url(./Image/macbook.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.text-margin6 {
+  margin: 42px 66px 343px 67px;
+}
+
+.c7-card-text {
+  width: 257px;
+  height: 116px;
 }
