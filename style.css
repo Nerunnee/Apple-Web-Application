@@ -296,6 +296,12 @@
   color: #000000;
 }
 
+.c3-text2-tw1 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
 .c3-text2-tw {
   font-size: 18px;
   font-weight: 400;
@@ -667,6 +673,10 @@
   .text-margin6 {
     margin: 42px 54px 333px 55px;
   }
+
+  .c3-text2-tw {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 1660px) {
@@ -799,5 +809,36 @@
 
   .text-margin6 {
     margin: 48px 286px 411px;
+  }
+
+  .bg-image-7 {
+    display: none;
+  }
+
+  .bg-image-8 {
+    display: none;
+  }
+
+  .bg-image-9 {
+    background-image: url(./Image/laptop-Trade.png);
+  }
+
+  .text-margin9 {
+    margin: 58.42px 310px 375.58px;
+  }
+
+  .c3-text2-tw1 {
+    display: none;
+  }
+  .c3-text2-tw {
+    display: block;
+  }
+
+  .bg-image-10 {
+    background-image: url(./Image/Laptop-card.png);
+  }
+
+  .text-margin10 {
+    margin: 58px 310px 373px;
   }
 }
