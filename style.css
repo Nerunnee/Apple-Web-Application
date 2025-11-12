@@ -5,6 +5,82 @@
   font-family: "Inter", serif;
 }
 
+.gap {
+  gap: 7px;
+}
+
+.gap1 {
+  gap: 16px;
+}
+
+.gap1l {
+  gap: 16px;
+}
+
+.gap2 {
+  gap: 12px;
+}
+
+.gap3 {
+  gap: 4px;
+}
+
+.gap3-l {
+  gap: 4px;
+}
+
+.gap4 {
+  gap: 8px;
+}
+
+.c-gap4 {
+  gap: 4px;
+}
+
+.gap5 {
+  gap: 20px;
+}
+
+.lgap1 {
+  gap: 12px;
+}
+
+.lgap2 {
+  gap: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* DEERH HESEGT BAINGA HEREGLEGDEJ BUI TOOLS HESGUUD BAGTSAN*/
+
+/* ENE DEES HEADER HESEG EHLEJ BAINA */
+
 .mobile-header-top {
   width: 100wh;
   height: 48px;
@@ -47,46 +123,6 @@
   height: 48px;
 }
 
-.gap {
-  gap: 7px;
-}
-
-.gap1 {
-  gap: 16px;
-}
-
-.gap1l {
-  gap: 16px;
-}
-
-.gap2 {
-  gap: 12px;
-}
-
-.gap3 {
-  gap: 4px;
-}
-
-.gap3-l {
-  gap: 4px;
-}
-
-.gap4 {
-  gap: 8px;
-}
-
-.gap5 {
-  gap: 20px;
-}
-
-.lgap1 {
-  gap: 12px;
-}
-
-.lgap2 {
-  gap: 16px;
-}
-
 .header-text {
   padding: 18px 31px;
 }
@@ -95,35 +131,7 @@
   font-size: 14px;
 }
 
-.flex {
-  display: flex;
-}
-
-.flex-column {
-  flex-direction: column;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-between {
-  justify-content: space-between;
-}
-
-.align-end {
-  align-items: flex-end;
-}
-
-.text-center {
-  text-align: center;
-}
-
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1840px) {
   .item-box4 {
     display: none;
   }
@@ -136,7 +144,7 @@
   }
 }
 
-@media screen and (max-width: 1660px) {
+@media screen and (max-width: 1840px) {
   .laptop-header {
     display: none;
   }
@@ -146,7 +154,9 @@
   }
 }
 
-/* endees card section */
+/* END HEADER HESEG DUUSSAN */
+
+/* ENDEES CARD SECTION EHLEJ BAINA */
 
 .card {
   width: 100wh;
@@ -155,7 +165,6 @@
 }
 
 .card-c {
-  width: 100wh;
   height: 500px;
   margin: 12px 0 0;
 }
@@ -387,6 +396,8 @@
 }
 
 .bg1-image-4 {
+  width: 100%;
+  overflow: hidden;
   background-image: url(./Image/Airpods.png);
   background-size: cover;
   background-position: center;
@@ -396,7 +407,14 @@
   margin: 299px 74px 54px 75px;
 }
 
-.c5-apple-icon {
+.apple-icon {
+  width: 22px;
+  height: 27px;
+  background-position: center;
+  background-size: cover;
+}
+
+.apple-icon-1 {
   width: 22px;
   height: 27px;
   background-position: center;
@@ -421,7 +439,6 @@
   font-size: 13px;
   font-weight: 700;
   color: #000000;
-  font: bold;
 }
 
 .bg-image-5 {
@@ -437,7 +454,11 @@
 .c6-text1 {
   font-size: 30px;
   font-weight: 700;
-  font: bold;
+}
+
+.c6-text1-1 {
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .bg-image-6 {
@@ -630,7 +651,6 @@
   }
 
   .column-two {
-    width: 100wh;
     display: grid;
     grid-auto-rows: 490px;
     grid-template-columns: repeat(2, 1fr);
@@ -677,9 +697,13 @@
   .c3-text2-tw {
     display: none;
   }
+
+  .bg-image-10 {
+    display: none;
+  }
 }
 
-@media screen and (min-width: 1660px) {
+@media screen and (min-width: 1840px) {
   .card {
     height: 692px;
   }
@@ -803,12 +827,24 @@
     margin: 58px 310px 376px;
   }
 
+  .c5-text1 {
+    font-size: 32px;
+  }
+
+  .c-gap4 {
+    gap: 8px;
+  }
+
   .bg-image-6 {
     background-image: url(./Image/laptop-air.png);
   }
 
   .text-margin6 {
     margin: 48px 286px 411px;
+  }
+
+  .c6-text1 {
+    font-size: 36px;
   }
 
   .bg-image-7 {
@@ -835,10 +871,46 @@
   }
 
   .bg-image-10 {
+    display: block;
     background-image: url(./Image/Laptop-card.png);
+    background-position: center;
+    background-size: cover;
   }
 
   .text-margin10 {
     margin: 58px 310px 373px;
   }
+
+  .c-text4-10 {
+    width: 80px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #2997ff;
+  }
+
+  .c-text-box2-10 {
+    width: 112px;
+    height: 44px;
+    border: 1px solid #2997ff;
+    border-radius: 999px;
+  }
+
+  .apple-icon {
+    width: 26.35px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .c6-text1-1 {
+    font-size: 32px;
+  }
+
+  .apple-icon-1 {
+    width: 26px;
+    height: 32px;
+  }
 }
+
+/* END CARD SECTION DUUSSAN */
