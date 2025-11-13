@@ -81,6 +81,10 @@
   align-items: flex-end;
 }
 
+.just-end {
+  justify-content: flex-end;
+}
+
 /* DEERH HESEGT BAINGA HEREGLEGDEJ BUI TOOLS HESGUUD BAGTSAN*/
 
 /* ENE DEES HEADER HESEG EHLEJ BAINA */
@@ -534,9 +538,12 @@
 /* ENDEES FOOTER HESEG EHELJ BAINA */
 
 .assets {
+  height: 495px;
   margin: 12px 0 16px;
   gap: 16px;
   overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
 }
 
 .tabpanel {
@@ -544,14 +551,16 @@
   height: 495px;
   background-position: center;
   background-size: cover;
+  scroll-snap-align: center;
 }
 
 .tabpanel__figure {
   height: 54px;
   padding: 4px 27px;
+  margin-bottom: 320px;
 }
 
-.tabpanel__text {
+.tabpanel__text1 {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 13.48px;
   color: white;
@@ -559,26 +568,25 @@
 }
 
 .tabpanel__img-1 {
-  background-image: url(./Image/panel-img-1.png);
-  padding: 58px 0;
+  background-image: url(./Image/panel-img-1.webp);
 }
 
 .tabpanel__img-2 {
-  background-image: url(./Image/panel-img-2.png);
-  padding-top: 20px;
+  background-image: url(./Image/panel-img-2.webp);
   padding-bottom: 30px;
 }
 
-.tabpanel__figure2-1 {
+.tabpanel__figure-icon {
+  width: 68px;
   height: 33px;
   padding: 4px;
-  margin-bottom: 6px;
+  margin-top: 30px;
 }
 
-.tabpanel__figure2-2 {
+.tabpanel__figure2 {
   height: 54px;
   padding: 4px 27px;
-  margin-bottom: 200px;
+  margin: 200px 0 0;
 }
 
 .tabpanel2__text1 {
@@ -607,65 +615,110 @@
   font-size: 12.03px;
   color: white;
   font-weight: 400;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 
-.tabpanel2 {
+.tabpanel__StN {
   width: 107.75px;
   height: 36px;
   background-color: #f5f5f7;
   border-radius: 980px;
 }
 
-.tabpanel2__text5 {
+.tabpanel__texts {
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
 .tabpanel__img-3 {
-  background-image: url(./Image/panel-img-3.png);
-  padding: 58px 0;
+  background-image: url(./Image/panel-img-3.webp);
+}
+
+.tabpanel__figure3 {
+  height: 54px;
+  padding: 4px 27px;
+  margin-top: 280px;
 }
 
 .tabpanel__img-4 {
-  width: 274px;
-  height: 495px;
-  background-image: url(./Image/panel-img-4.png);
+  background-image: url(./Image/panel-img-4.webp);
   background-position: center;
   background-size: cover;
+}
+
+.tabpanel__title {
+  width: 274px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 250px 0 50px;
 }
 
 .tabpanel__img-5 {
-  width: 274px;
-  height: 495px;
-  background-image: url(./Image/panel-img-5.png);
+  background-image: url(./Image/panel-img-5.webp);
   background-position: center;
   background-size: cover;
+}
+
+.tabpanel__title1 {
+  width: 274px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .tabpanel__img-6 {
-  width: 274px;
-  height: 495px;
-  background-image: url(./Image/panel-img-6.png);
+  background-image: url(./Image/panel-img-6.webp);
   background-position: center;
   background-size: cover;
+}
+
+.tabpanel__title2 {
+  width: 274px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 300px;
 }
 
 .tabpanel__img-7 {
-  width: 274px;
-  height: 495px;
-  background-image: url(./Image/panel-img-7.png);
+  background-image: url(./Image/panel-img-7.webp);
   background-position: center;
   background-size: cover;
 }
 
-.tabpanel__img-8 {
+.tabpanel__title3 {
   width: 274px;
-  height: 495px;
-  background-image: url(./Image/panel-img-8.png);
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 250px;
+}
+
+.tabpanel__img-8 {
+  background-image: url(./Image/panel-img-8.webp);
   background-position: center;
   background-size: cover;
+}
+
+.tabpanel__title4 {
+  width: 274px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 350px;
 }
 
 .tablist {
@@ -686,6 +739,47 @@
   height: 8px;
   border-radius: 100%;
   background-color: #0000006b;
+}
+
+.auto {
+  margin: 12px 6px 0 0;
+  gap: 6px;
+  overflow-x: auto;
+}
+
+.auto__bg-img2 {
+  width: 238px;
+  height: 134px;
+  background-color: #6529cf;
+  margin-bottom: 10px;
+}
+
+.auto__img2-1 {
+  width: 114px;
+  height: 114px;
+  margin: 10px 0 10px 62px;
+}
+
+.auto__img2-2 {
+  width: 41px;
+  height: 9.67px;
+  margin: 113.33px 10px 11px 10px;
+}
+
+.auto__text {
+  width: 238px;
+  font-size: 12px;
+  font: 700px;
+  margin-top: 10px;
+}
+
+.auto__bg-img3 {
+  width: 238px;
+  height: 134px;
+  margin-bottom: 10px;
+  background-image: url(./Image/auto-bg-img2.png);
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
