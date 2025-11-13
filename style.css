@@ -747,20 +747,16 @@
   overflow-x: auto;
 }
 
-.auto__bg-img2 {
-  width: 238px;
-  height: 134px;
-  background-color: #6529cf;
-  margin-bottom: 10px;
-}
-
 .auto__img {
   width: 114px;
   height: 114px;
+}
+
+.auto__card2 {
   margin: 10px 0 10px 62px;
 }
 
-.auto__img-icon {
+.auto__icon {
   width: 41px;
   height: 9.67px;
   margin: 113.33px 10px 11px 10px;
@@ -773,15 +769,6 @@
   margin-top: 10px;
 }
 
-.auto__bg-img3 {
-  width: 238px;
-  height: 134px;
-  margin-bottom: 10px;
-  background-image: url(./Image/auto-bg-img2.png);
-  background-position: center;
-  background-size: cover;
-}
-
 .auto__bg-img1 {
   width: 238px;
   height: 134px;
@@ -789,6 +776,89 @@
   background-image: url(./Image/auto-bg-img1.png);
   background-position: center;
   background-size: cover;
+}
+
+.auto__bg-img2 {
+  width: 238px;
+  height: 134px;
+  background-color: #6529cf;
+  margin-bottom: 10px;
+}
+
+.auto__bg-img3 {
+  width: 238px;
+  height: 134px;
+  margin-bottom: 10px;
+  background-image: url(./Image/auto-bg-img3.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.auto__bg-img4 {
+  width: 238px;
+  height: 134px;
+  background-color: #1b2632;
+  margin-bottom: 10px;
+}
+
+.auto__card4 {
+  margin: 0 14.69px 0 10px;
+}
+
+.auto__img-bc {
+  width: 114px;
+  height: 114px;
+}
+
+.auto__text4 {
+  font-size: 12px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+
+.auto__bg-img5 {
+  width: 238px;
+  height: 134px;
+  margin-bottom: 10px;
+  background-image: url(./Image/auto-bg-img5.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.auto__bg-img6 {
+  width: 238px;
+  height: 134px;
+  margin-bottom: 10px;
+  background-image: url(./Image/auto-bg-img6.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.auto__bg-img7 {
+  width: 238px;
+  height: 134px;
+  background-color: #ebb799;
+  margin-bottom: 10px;
+}
+
+.auto__card7 {
+  margin: 0 53.01px 0 10px;
+}
+
+.play {
+  margin: 16px 16px 16px 0;
+}
+
+.play__bg {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  background-color: #d2d2d7;
+}
+
+.play__botton {
+  width: 12px;
+  height: 12px;
 }
 
 @media screen and (min-width: 768px) {
