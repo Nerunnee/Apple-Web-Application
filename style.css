@@ -325,6 +325,12 @@
   color: #000000;
 }
 
+.c3-text2-tw3 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+}
+
 .c3-img {
   width: 180px;
   height: 41.86px;
@@ -398,6 +404,7 @@
 }
 
 .bg-image-4 {
+  height: 500px;
   background-image: url(./Image/Airpods.png);
   background-size: cover;
   background-position: center;
@@ -539,8 +546,8 @@
 
 .assets {
   height: 495px;
-  margin: 12px 0 16px;
   gap: 16px;
+  margin-top: 12px;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
@@ -592,13 +599,6 @@
 }
 
 .tabpanel__figure-icon {
-  width: 68px;
-  height: 33px;
-  padding: 4px;
-  margin-top: 30px;
-}
-
-.tabpanel__figure-icon1 {
   width: 68px;
   height: 33px;
   padding: 4px;
@@ -657,6 +657,10 @@
   background-image: url(./Image/panel-img-3.webp);
 }
 
+.tabpanel__img-3-1 {
+  background-image: url(./Image/panel-img-3.webp);
+}
+
 .tabpanel__figure3 {
   height: 54px;
   padding: 4px 27px;
@@ -664,6 +668,12 @@
 }
 
 .tabpanel__img-4 {
+  background-image: url(./Image/panel-img-4.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-4-1 {
   background-image: url(./Image/panel-img-4.webp);
   background-position: center;
   background-size: cover;
@@ -685,6 +695,12 @@
   background-size: cover;
 }
 
+.tabpanel__img-5-1 {
+  background-image: url(./Image/panel-img-5.webp);
+  background-position: center;
+  background-size: cover;
+}
+
 .tabpanel__title1 {
   width: 274px;
   font-family: "Helvetica Neue", sans-serif;
@@ -696,6 +712,12 @@
 }
 
 .tabpanel__img-6 {
+  background-image: url(./Image/panel-img-6.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-6-1 {
   background-image: url(./Image/panel-img-6.webp);
   background-position: center;
   background-size: cover;
@@ -717,6 +739,12 @@
   background-size: cover;
 }
 
+.tabpanel__img-7-1 {
+  background-image: url(./Image/panel-img-7.webp);
+  background-position: center;
+  background-size: cover;
+}
+
 .tabpanel__title3 {
   width: 274px;
   font-family: "Helvetica Neue", sans-serif;
@@ -728,6 +756,12 @@
 }
 
 .tabpanel__img-8 {
+  background-image: url(./Image/panel-img-8.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.tabpanel__img-8-1 {
   background-image: url(./Image/panel-img-8.webp);
   background-position: center;
   background-size: cover;
@@ -749,6 +783,12 @@
   gap: 14px;
 }
 
+.tablist-t {
+  height: 8px;
+  margin: 16px 0 14px;
+  gap: 14px;
+}
+
 .tab {
   width: 8px;
   height: 8px;
@@ -764,9 +804,24 @@
 }
 
 .auto {
-  margin: 12px 6px 0 0;
+  margin-top: 12px;
   gap: 6px;
-  overflow-x: auto;
+  overflow: hidden;
+}
+
+.auto__wrapper {
+  animation: auto-slider 30s infinite linear;
+  gap: 6px;
+}
+
+@keyframes auto-slider {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }
 
 .auto__img {
@@ -775,7 +830,7 @@
 }
 
 .auto__card2 {
-  margin: 10px 0 10px 62px;
+  margin: 10px 0;
 }
 
 .auto__icon {
@@ -794,7 +849,6 @@
 .auto__bg-img1 {
   width: 238px;
   height: 134px;
-  margin-bottom: 10px;
   background-image: url(./Image/auto-bg-img1.png);
   background-position: center;
   background-size: cover;
@@ -810,7 +864,6 @@
 .auto__bg-img3 {
   width: 238px;
   height: 134px;
-  margin-bottom: 10px;
   background-image: url(./Image/auto-bg-img3.png);
   background-position: center;
   background-size: cover;
@@ -841,7 +894,6 @@
 .auto__bg-img5 {
   width: 238px;
   height: 134px;
-  margin-bottom: 10px;
   background-image: url(./Image/auto-bg-img5.png);
   background-position: center;
   background-size: cover;
@@ -850,7 +902,6 @@
 .auto__bg-img6 {
   width: 238px;
   height: 134px;
-  margin-bottom: 10px;
   background-image: url(./Image/auto-bg-img6.png);
   background-position: center;
   background-size: cover;
@@ -1052,7 +1103,7 @@
     margin: 42px 54px 333px 55px;
   }
 
-  .c3-text2-tw {
+  .c3-text2-tw3 {
     display: none;
   }
 
@@ -1064,7 +1115,6 @@
 
   .assets {
     height: 368px;
-    margin: 12px 0 12px;
   }
 
   .tabpanel {
@@ -1119,6 +1169,144 @@
 
   .tabpanel__StN {
     margin-left: 30px;
+  }
+
+  .tabpanel__img-3 {
+    display: none;
+  }
+
+  .tabpanel__img-3-1 {
+    display: block;
+  }
+
+  .tabpanel__figure3 {
+    height: 70px;
+    margin: 150px 0 50px 0;
+  }
+
+  .tabpanel__img-4 {
+    display: none;
+  }
+
+  .tabpanel__img-4-1 {
+    display: block;
+  }
+
+  .tabpanel__title {
+    width: 350px;
+    font-size: 40px;
+    height: 70px;
+    margin: 150px 0 50px 0;
+  }
+
+  .tabpanel__img-5 {
+    display: none;
+  }
+
+  .tabpanel__img-5-1 {
+    display: block;
+  }
+
+  .tabpanel__img-6 {
+    display: none;
+  }
+
+  .tabpanel__img-6-1 {
+    display: block;
+  }
+
+  .tabpanel__title2 {
+    font-size: 50px;
+    margin: 230px 0 10px 0;
+  }
+
+  .tabpanel__img-7 {
+    display: none;
+  }
+
+  .tabpanel__img-7-1 {
+    display: block;
+  }
+
+  .tabpanel__title3 {
+    width: 500px;
+    font-size: 40px;
+    margin: 170px 0 10px 0;
+  }
+
+  .tabpanel__img-8 {
+    display: none;
+  }
+
+  .tabpanel__img-8-1 {
+    display: block;
+  }
+
+  .tabpanel__title4 {
+    font-size: 40px;
+    margin: 200px 0 20px 0;
+  }
+
+  .auto {
+    gap: 16px;
+  }
+
+  .auto__text {
+    width: 286px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .auto__bg-img1 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__bg-img2 {
+    width: 286px;
+    height: 161px;
+    margin-bottom: 15px;
+  }
+
+  .auto__bg-img3 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__bg-img4 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__bg-img5 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__bg-img6 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__bg-img7 {
+    width: 286px;
+    height: 161px;
+  }
+
+  .auto__card2 {
+    margin: 23.5px 0;
+  }
+
+  .auto__icon {
+    margin: 126.83px 10px 11px 10px;
+  }
+
+  .auto__card4 {
+    margin: 10px 62.69px 0 10px;
+  }
+
+  .auto__card7 {
+    margin: 10px 101.01px 0 10px;
   }
 }
 
@@ -1285,7 +1473,7 @@
   .c3-text2-tw1 {
     display: none;
   }
-  .c3-text2-tw {
+  .c3-text2-tw3 {
     display: block;
   }
 
@@ -1329,5 +1517,16 @@
   .apple-icon-1 {
     width: 26px;
     height: 32px;
+  }
+
+  /* FOOTER SECTION EHLEL */
+
+  .assets {
+    height: 668px;
+  }
+
+  .tabpanel {
+    width: 1250px;
+    height: 668px;
   }
 }
