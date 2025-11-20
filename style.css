@@ -807,6 +807,20 @@
   background-color: #0000006b;
 }
 
+.tab-t {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #000000cc;
+}
+
+.tab-center-t {
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #0000006b;
+}
+
 .auto {
   margin-top: 12px;
   gap: 6px;
@@ -1112,8 +1126,30 @@
 
   /* FOOTER SECTION */
 
-  .assets {
+  .assets1 {
     height: 368px;
+    gap: 16px;
+    margin-top: 12px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+
+  .tablist {
+    display: none;
+  }
+
+  .tablist-t {
+    display: block;
+  }
+
+  .tab-t {
+    display: block;
+  }
+
+  .tab-center-t {
+    display: block;
+    display: flex;
   }
 
   .tabpanel {
