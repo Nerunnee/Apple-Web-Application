@@ -787,12 +787,6 @@
   gap: 14px;
 }
 
-.tablist-t {
-  height: 8px;
-  margin: 16px 0 14px;
-  gap: 14px;
-}
-
 .tab {
   width: 8px;
   height: 8px;
@@ -801,20 +795,6 @@
 }
 
 .tab-center {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #0000006b;
-}
-
-.tab-t {
-  width: 8px;
-  height: 8px;
-  border-radius: 100%;
-  background-color: #000000cc;
-}
-
-.tab-center-t {
   width: 8px;
   height: 8px;
   border-radius: 100%;
@@ -1126,30 +1106,8 @@
 
   /* FOOTER SECTION */
 
-  .assets1 {
+  .assets {
     height: 368px;
-    gap: 16px;
-    margin-top: 12px;
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-  }
-
-  .tablist {
-    display: none;
-  }
-
-  .tablist-t {
-    display: block;
-  }
-
-  .tab-t {
-    display: block;
-  }
-
-  .tab-center-t {
-    display: block;
-    display: flex;
   }
 
   .tabpanel {
@@ -1280,6 +1238,32 @@
   .tabpanel__title4 {
     font-size: 40px;
     margin: 200px 0 20px 0;
+  }
+
+  .tablist {
+    display: none;
+  }
+
+  .tablist-t {
+    height: 8px;
+    margin: 16px 0 14px;
+    gap: 14px;
+  }
+
+  .tab-t {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #000000cc;
+  }
+
+  .tab-center-t {
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: #0000006b;
   }
 
   .auto {
